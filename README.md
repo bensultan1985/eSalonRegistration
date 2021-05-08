@@ -4,7 +4,7 @@
 Note: Use Chrome for best experience.
 
 This is a front end project made with HTML/CSS/Javascript. It also utilizes Bootstrap and jQuery.
-It was clear to me from the job interview that this role is for someone who has an eye for design. I spent half of my alotted time focused on designing the user experience.
+It was clear to me from the job interview that this role is for someone who has an eye for design. I spent half of my allotted time focused on designing the user experience.
 
 I wanted the user to feel like they were about to sign up for something fun. eSalon has two fun draws that I kept thinking about: "California" and "hair". I think the background image perfectly captures those themes. I also came up with the idea to have curves and colors throughout, like input fields with rounded edges and thin, colorful borders.
 
