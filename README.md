@@ -27,7 +27,7 @@ git clone https://github.com/your/eSalonRegistration.git
 
 ## Tests
 
-If this were a full project, I would have developed tests with Jest, which I have used for similar projects in the past.
+If this was a full project, I would have developed tests with Jest, which I have used for similar projects in the past.
 
 
 ## Util.js
