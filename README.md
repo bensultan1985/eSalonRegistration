@@ -18,7 +18,7 @@ Chrome is the best browser for this site.
 ## Developing
 
 ### Built With
-HTML, CSS, Javascript, Bootstrap, jQuery
+HTML, CSS/SCSS, Javascript, Bootstrap, jQuery
 
 ### Setting up Dev
 
