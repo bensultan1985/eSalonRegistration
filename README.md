@@ -1,4 +1,4 @@
-# Create Your Account;
+# eSalon Sign Up
 > eSalon Registration Form Demo.
 
 Note: Use Chrome for best experience.
