@@ -22,7 +22,17 @@ function createPageHeader(header) {
 };
 
 
-//mock validity check function for form data. the param, returnData is the form data. -BEN 5/7/2021
+/* 
+Mock validity check function for form submission. ReturnData param is the form data.
+
+validityFunc is a very important step in working with a form like this, because
+we need to make sure that all fields contain valid data (e.g. zip code value
+is a five digit number). If I had more time to work on this project, my next step
+would be to build the logic to verify data from all form fields. validityFunc
+must return true or false. If false is returned, the form stays open. If true is
+returned, the form closes and the user is notified that registration is complete.
+-BEN 5/7/2021
+*/
 function validityFunc(returnData) {
   var isValid = true;
   var fix = [];
