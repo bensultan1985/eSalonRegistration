@@ -14,11 +14,13 @@ $stdButtonColor:  rgba(211, 105, 158, 0.829);
 $stdButtonColorHover: rgb(206, 100, 153);
 
 html {
-    width: 100vw;
+    // width: 100vw;
+    overflow-x: hidden;
+
 }
 
 body {
-    width: 100vw;
+    // width: 100vw;
     background: rgb(206, 232, 240);
 
     background: url("images/beach.jpeg") no-repeat center center fixed;
@@ -26,6 +28,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 a {
