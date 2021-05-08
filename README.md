@@ -1,14 +1,14 @@
 # Create Your Account;
-> eSalon Registration Form Demo
+> eSalon Registration Form Demo.
 
 Note: Use Chrome for best experience.
 
 This is a front end project made with HTML/CSS/Javascript. It also utilizes Bootstrap and jQuery.
-It was clear to me from the job interview that this role is for someone who has an eye for design. I spent half of my alotted time focused on designing the user experience. I wanted the user to feel like they were about to sign up for something fun.
+It was clear to me from the job interview that this role is for someone who has an eye for design. I spent half of my alotted time focused on designing the user experience.
 
-eSalon has two main draws that I kept thinking about: "California" and "hair". I think the background image perfectly captures those themes. I wanted the site to instantly feel fun, so I came up with the idea to have curves and colors throughout, like input fields with rounded edges and thin, colorful borders.
+I wanted the user to feel like they were about to sign up for something fun. eSalon has two fun draws that I kept thinking about: "California" and "hair". I think the background image perfectly captures those themes. I also came up with the idea to have curves and colors throughout, like input fields with rounded edges and thin, colorful borders.
 
-Instead of spending time adding all the rules we want to see in form fields (which is no problem for me to do), I decided to push myself to add subtle flare to the experience. My favorite part is that once a form is submitted, the form scrolls up to the top and a personalized message appears, welcoming the new user.
+Instead of spending time adding all the rules we want to see in form fields (which is no problem for me to do), I decided to push myself to add subtle flare to the experience. My favorite part is that once a form is submitted, the page scrolls up to the top and a personalized message appears, welcoming the new user.
 
 ## Getting started
 
