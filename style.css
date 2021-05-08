@@ -1,0 +1,359 @@
+html {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  background: #cee8f0;
+  background: url("images/beach.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  color: #ce6499;
+}
+
+a:hover {
+  color: #a44a77;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+}
+
+.outer-div {
+  border-radius: 6px;
+}
+
+form div {
+  padding: 5px 30px;
+  margin-bottom: 5px;
+  background: rgba(255, 255, 255, 0.803);
+  background: rgba(255, 255, 255, 0.68);
+  background: rgba(255, 255, 255, 0.756);
+  -webkit-box-shadow: 3px 4px 5px -5px #000000;
+  box-shadow: 3px 4px 5px -5px #000000;
+}
+
+.header-text {
+  background: pink;
+  padding: 4px 20px;
+  color: white;
+  border-radius: 50%;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.content-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+form .input-element {
+  display: block;
+  min-height: 24px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: rgba(242, 242, 242, 0.808);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 8px;
+  -webkit-autofill: rgba(242, 242, 242, 0.808);
+  -webkit-autofill-selected: rgba(242, 242, 242, 0.808);
+  -webkit-box-shadow: none;
+  outline: none;
+}
+
+form select {
+  display: block;
+  min-height: 24px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: rgba(242, 242, 242, 0.808);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 8px;
+  -webkit-autofill: rgba(242, 242, 242, 0.808);
+  -webkit-autofill-selected: rgba(242, 242, 242, 0.808);
+  -webkit-box-shadow: none;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+.el-color-1 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(247, 154, 190, 0.44);
+}
+
+.el-color-2 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(254, 121, 172, 0.44);
+}
+
+.el-color-3 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(191, 154, 246, 0.44);
+}
+
+.el-color-4 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(173, 121, 252, 0.44);
+}
+
+.el-color-5 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(145, 227, 232, 0.44);
+}
+
+.el-color-6 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(81, 186, 192, 0.44);
+}
+
+.el-color-7 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(251, 195, 151, 0.44);
+}
+
+.el-color-8 {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(230, 165, 116, 0.44);
+}
+
+.el-color-clear {
+  border: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgba(230, 165, 116, 0);
+}
+
+.page-header {
+  font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', 'sans-serif';
+  font-style: italic;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+label {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.radio-label {
+  display: inline-block;
+  width: auto;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+input + .radio-element {
+  display: block;
+  width: auto;
+  margin-right: 10px !important;
+  width: auto !important;
+}
+
+.inner-container {
+  display: inline-block;
+  width: auto;
+  width: -webkit-max-content -webkit-fit-content;
+  width: -moz-max-content -moz-fit-content;
+  width: max-content fit-content;
+  max-width: 60%;
+  min-width: 50%;
+  -webkit-box-shadow: 0px 0px 0px 0px #000000 !important;
+  box-shadow: 0px 0px 0px 0px #000000 !important;
+}
+
+input[type=file]::file-selector-button {
+  background: white;
+  color: #ce6499;
+  border: solid;
+  border-width: 1px;
+  border-color: inherit;
+  border-radius: 10px;
+}
+
+input[type=file] {
+  display: block;
+  font-size: .8em;
+}
+
+button {
+  background: rgba(211, 105, 158, 0.829) !important;
+  border: none !important;
+  border-color: white !important;
+}
+
+/* alt
+button {
+    background: white !important;
+    border-color: $stdButtonColor !important;
+    color: $stdButtonColor !important;
+} */
+button:hover {
+  background: #ce6499 !important;
+}
+
+.footerContainer {
+  width: 100%;
+}
+
+form .footer {
+  background: none;
+}
+
+form .inner-footer {
+  background: none;
+  -webkit-box-shadow: 0px 0px 0px 0px #000000 !important;
+  box-shadow: 0px 0px 0px 0px #000000 !important;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#mod-body {
+  width: 100%;
+}
+
+.mod-list {
+  display: inline-block;
+  color: #ce6499;
+  width: auto;
+  margin-right: 20px;
+}
+
+.submitted {
+  display: block;
+  min-height: 24px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(242, 242, 242, 0.808);
+  background: rgba(255, 255, 255, 0.651);
+  border-radius: 8px;
+  -webkit-autofill: rgba(242, 242, 242, 0.808);
+  -webkit-autofill-selected: rgba(242, 242, 242, 0.808);
+  -webkit-box-shadow: none;
+  outline: none;
+}
+
+.x-navbar.x-navbar-fixed-top.x-container.max.width {
+  width: 100%;
+}
+
+.bullet {
+  font-size: 28px;
+}
+
+.radio-btn {
+  vertical-align: text-bottom;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #cee8f0;
+  }
+  .inner-container {
+    max-width: 100%;
+  }
+  .radio-label {
+    max-width: 100%;
+  }
+  .header-text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .header-text {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: #d0e2ecd2;
+  }
+}
+/*# sourceMappingURL=style.css.map */
