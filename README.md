@@ -32,4 +32,4 @@ If this was a full project, I would have developed tests with Jest, which I have
 
 ## Util.js
 
-This file was created with scalability in mind. I wanted to demonstrate the power of having a Javascript library of HTML elements. If I were working for eSalon and knew that I had to build many sites for the admin console, it would be advantageous to have methods for creating consistent elements. This way, elements will be consistent in look and functionality across the admin console.
+This file was created with scalability in mind. I wanted to demonstrate the power of having a Javascript library of HTML elements. If I had to build many sites for the admin console, it would be advantageous for me to have methods for creating consistent elements across the console.
